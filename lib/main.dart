@@ -2,6 +2,7 @@ import 'package:animaciones/explicit_animations.dart';
 import 'package:animaciones/transition_animations.dart';
 import 'package:flutter/material.dart';
 
+import 'heart_rive.dart';
 import 'implicit_animations.dart';
 
 void main() {
@@ -87,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CiclesLoader(),
-
+            HeartRive(),
             Row(children: [
               Container(
                 height: 100,
